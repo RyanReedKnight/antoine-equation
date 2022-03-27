@@ -1,2 +1,2 @@
 # antoine-equation
-Console application which can perform calculation using the Antoine Equation.
+Console application which can perform calculations with the Antoine Equation.
