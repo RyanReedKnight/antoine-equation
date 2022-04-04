@@ -1,5 +1,5 @@
 CC = g++
-CFLAGS = -Wall -g -I include
+CFLAGS = -I include
 
 main: main.o AntoineEOS.o get_x.o
 	$(CC) $(CFLAGS) -o main main.o AntoineEOS.o get_x.o
