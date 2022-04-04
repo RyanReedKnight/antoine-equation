@@ -13,6 +13,7 @@ ANILINE("Aniline"), BENZENE("Benzene"), N_BUTANE("n-Butane"), I_BUTANE("i-Butane
 _2_BUTANOL("2-Butanol"),_1_BUTENE("1-Butene"),BUTYRIC_ACID("Butyric-acid"),CARBON_DISULFIDE("Carbon-disulfide"),
 CARBON_TETRACHLORIDE("Carbon-tetrachloride"),CHLOROBENZENE("Chlorobenzene"),CHLOROBENZNE_AST(CHLOROBENZENE+"*"),
 
+// Citation for Antoine coefficient data.
 BOUBLIK_ET_HALA_CITE("T. Boublik, V. Fried, and E. Halla, "
 "The Vapor Pressure of Pure Substances, Elisevier, Amsterdam, 1973"),
 
@@ -21,7 +22,7 @@ BYE("Fare thee well!");
 // Function declarations
 int menu(AntoineEOS&);
 
-int main() 
+int main()
 {
 	AntoineEOS boublik_et_hala(BOUBLIK_ET_HALA_CITE, "mmHG", "C",true);
 	boublik_et_hala.add_species(ACETALDEHYDE,8.00552,1600.017,291.809,-.2,34.4);
