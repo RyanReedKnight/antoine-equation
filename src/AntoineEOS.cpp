@@ -50,7 +50,7 @@ bool AntoineEOS::check_key(const std::string& key)
 }
 
 /* edit_sourc()
-	Replace source filed with new string.
+	Replace source with new string.
 	*/
 void AntoineEOS::edit_source(const string& new_source) 
 {
@@ -63,7 +63,7 @@ void AntoineEOS::edit_source(const string& new_source)
 	Get coefficient x, use private get() method to return
 	coefficient x.
 	- Arguments
-		* species_name, name of species, if species is
+		* species_name, name of species. If species is
 			stored in object, returns coefficient.
 	*/
 double AntoineEOS::get_a(const string& species_name)
@@ -104,11 +104,11 @@ string AntoineEOS::get_pressure_units()
 }
 
 /* add_species()
-	- Add species and associated parameters to object. Species and data shoule be from 
+	- Add species and associated parameters to object. Species and data should be from 
 		the same source as other species contained in object.
 	- Arguments
 		* species_name, name of species, used as key to get parameters.
-		* a, b, c - antoine parameters associated with species.
+		* a, b, c - Antoine parameters associated with species.
 		* t_lwr and t_upr - bounds of temperature range for data.
 		*/
 void AntoineEOS::add_species(const string& species_name, const double& a, const double& b,
