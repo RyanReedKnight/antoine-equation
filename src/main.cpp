@@ -35,7 +35,7 @@ int main()
 	boublik_et_hala.add_species(ANILINE, 7.32010, 1731.515, 206.049, 102.6, 185.2);
 	boublik_et_hala.add_species(BENZENE, 6.89272, 1203.531, 219.888, 14.5, 80.9);
 	boublik_et_hala.add_species(N_BUTANE, 6.82485, 943.453, 239.711, -78.0, -0.3);
-	boublik_et_hala.add_species(I_BUTANE, 6.7886, 8.99617, 241.941, -85.1, -11.6);
+	boublik_et_hala.add_species(I_BUTANE, 6.7886, 899.617, 241.941, -85.1, -11.6);
 	boublik_et_hala.add_species(_1_BUTANOL, 7.36366, 1305.198, 173.427, 89.2, 125.7);
 	boublik_et_hala.add_species(_2_BUTANOL,7.20131,1157.000,168.279,72.4,107.1);
 	boublik_et_hala.add_species(_1_BUTENE,6.53101,810.261,228.066,-77.5,-3.7);
