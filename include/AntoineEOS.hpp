@@ -52,5 +52,4 @@ public:
 	// EOS calculations
 	double get_p_sat(const std::string,const double);
 };
-// Test to see I succesfully pushed from new computer
 #endif
