@@ -4,6 +4,8 @@
 #include"AntoineEOS.hpp"
 #include"get_x.hpp"
 
+// Test1 - testing bash function being used to push to repo.
+
 using std::string; using std::cout; using std::endl;
 using std::cin; using std::stod; using std::invalid_argument;
 
