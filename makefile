@@ -1,8 +1,8 @@
 CC = g++
 CFLAGS = -I include
 
-main: main.o AntoineEOS.o get_x.o
-	$(CC) $(CFLAGS) -o main main.o AntoineEOS.o get_x.o
+antoine-eos: main.o AntoineEOS.o get_x.o
+	$(CC) $(CFLAGS) -o antoine-eos main.o AntoineEOS.o get_x.o
 
 main.o: src/main.cpp include/AntoineEOS.hpp include/get_x.hpp
 	$(CC) $(CFLAGS) -c src/main.cpp
