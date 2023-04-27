@@ -24,3 +24,7 @@ As of now, the application gives the user the 5 following options.
    values from the lower to upper temperature limit.
    ![Screenshot (77)](https://user-images.githubusercontent.com/54007504/160301091-4b04954e-bfc5-4fe5-b74e-3bbb0c7b9f37.png)
 5. Exit program.
+
+# Build and run
+   Must have make installed and a C++ compiler. Clone the repository, enter the directory and use ```make```, 
+and then run the resulting executible antoine-eos.
