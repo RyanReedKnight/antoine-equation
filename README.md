@@ -27,4 +27,4 @@ As of now, the application gives the user the 5 following options.
 
 # Build and run
    Must have make installed and a C++ compiler. Clone the repository, enter the directory and use ```make```, 
-and then run the resulting executible antoine-eos.
+and then run the resulting executible ```./antoine-eos```
