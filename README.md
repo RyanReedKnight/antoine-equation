@@ -1,5 +1,5 @@
 # antoine-equation
-Console application which can perform calculations with the Antoine Equation.
+Terminal application which can perform calculations with the Antoine Equation.
 
 Program revolves around AnoineEOS class, which stores Antoine parameters associated with a set of chemical species, and performs
 calculations with these parameters. The class uses a map to retrive the parameters associated with a chemical species, 
