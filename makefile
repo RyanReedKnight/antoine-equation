@@ -12,3 +12,6 @@ AntoineEOS.o: src/AntoineEOS.cpp include/AntoineEOS.hpp
 
 get_x.o: src/get_x.cpp include/get_x.hpp
 	$(CC) $(CFLAGS) -c src/get_x.cpp
+
+clean:
+	rm *.o antoine-eos
